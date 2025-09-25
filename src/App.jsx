@@ -38,7 +38,7 @@ export default function App() {
           <div className="grid lg:grid-cols-3 gap-12 items-start">
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-semibold tracking-tight">About Jeff</h2>
-              <p className="mt-4 text-gray-700 leading-relaxed">I’m a technology leader with 40+ years in tech and 26 years directing engineering teams across cloud, DevOps, and SRE. I’ve led at Informix, TiVo, Platinum Technology, Embarcadero Technologies, Zymergen, and SleepNumber. I help early‑stage and growth companies build durable engineering organizations, ship safely, and scale efficiently.</p>
+              <p className="mt-4 text-gray-700 leading-relaxed">I’m a technology leader with 40+ years in tech and 26 years directing engineering teams across cloud, DevOps, and SRE. I’ve led at Informix, TiVo, Platinum Technology, Embarcadero Technology, Zymergen, and SleepNumber. I help early‑stage and growth companies build durable engineering organizations, ship safely, and scale efficiently.</p>
             </div>
             
           </div>
