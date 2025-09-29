@@ -5,5 +5,12 @@ export default defineConfig({
   plugins: [react()],
   server: {
     historyApiFallback: true
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 });

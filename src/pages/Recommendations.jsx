@@ -49,7 +49,7 @@ export default function Recommendations() {
                   <blockquote className="text-gray-700 italic">
                     "Jeff provides clarity in every interaction. He effectively translates strategic priorities to actionable initiatives. He has a rare combination of exceptional interpersonal skills and technical depth. It has been my great pleasure to work with Jeff and I look forward to doing so again."
                   </blockquote>
-                  <cite className="text-sm text-gray-600 mt-4 block">— Rebecca Davidson, Something New | Alum of 2 exited startups | >15 yrs building AI and scalable software | UCSF PhD</cite>
+                    <cite className="text-sm text-gray-600 mt-4 block">— Rebecca Davidson, Something New | Alum of 2 exited startups | &gt;15 yrs building AI and scalable software | UCSF PhD</cite>
                 </div>
                 
                 <div className="border-l-4 border-purple-500 pl-6">
