@@ -112,7 +112,7 @@ export default function Home() {
                 className="group block rounded-3xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-md transition-shadow"
               >
                 <h3 className="text-xl font-semibold mb-3 group-hover:text-gray-900">Recommendations</h3>
-                <p className="text-gray-700 mb-4">Read client testimonials, case studies, and professional references from my work across various companies and projects.</p>
+                <p className="text-gray-700 mb-4">Recommendations from those who have worked with me.</p>
                 <span className="text-blue-600 font-medium group-hover:text-blue-700">View Recommendations →</span>
               </a>
               
