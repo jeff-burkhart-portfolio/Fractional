@@ -1,1 +1,6 @@
+# Netlify redirects for React Router
 /*    /index.html   200
+
+# Specific routes
+/recommendations    /index.html   200
+/philosophy        /index.html   200
