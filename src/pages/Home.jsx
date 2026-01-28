@@ -6,7 +6,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight">Fractional Director of Engineering</h1>
+              <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight">Fractional Engineering Leadership</h1>
               <p className="mt-4 text-lg text-gray-700">Scaling Cloud, DevOps & SRE teams for startups and scale-ups. World-class engineering leadership without the full-time overhead.</p>
             </div>
             <div className="md:pl-8">
