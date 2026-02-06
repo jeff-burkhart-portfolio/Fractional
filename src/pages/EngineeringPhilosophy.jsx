@@ -1,9 +1,19 @@
+import Container from '../components/Container';
+import Seo from '../components/Seo';
+
 export default function EngineeringPhilosophy() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20">
+    <div className="bg-gray-50">
+      <Seo
+        title="Engineering Philosophy"
+        description="Core engineering and leadership principles behind how Jeff Burkhart scales Cloud, DevOps, and SRE teams."
+      />
+      <Container className="py-20">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-semibold tracking-tight mb-8">Engineering Philosophy</h1>
+          <h1 className="text-4xl font-semibold tracking-tight">Engineering Philosophy</h1>
+          <p className="mt-3 text-gray-700">
+            These are the principles I use to build durable systems and high-performing, healthy teams.
+          </p>
           
           <div className="space-y-8">
             {/* Core Philosophy */}
@@ -164,7 +174,7 @@ export default function EngineeringPhilosophy() {
 
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

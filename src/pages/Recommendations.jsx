@@ -1,9 +1,30 @@
+import { Link } from 'react-router-dom';
+import Container from '../components/Container';
+import Seo from '../components/Seo';
+
 export default function Recommendations() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-semibold tracking-tight mb-8">Recommendations</h1>
+    <div className="bg-gray-50">
+      <Seo
+        title="Recommendations"
+        description="Recommendations from leaders and engineers who have worked with Jeff Burkhart."
+      />
+      <Container className="py-20">
+        <div className="mx-auto max-w-4xl">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <h1 className="text-4xl font-semibold tracking-tight">Recommendations</h1>
+              <p className="mt-3 text-gray-700">
+                A few notes from people I’ve worked with across engineering leadership, DevOps, SRE, and platform teams.
+              </p>
+            </div>
+            <Link
+              to="/#contact"
+              className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+            >
+              Talk about your team
+            </Link>
+          </div>
           
           <div className="space-y-8">
             {/* Client Testimonials - Commented out until testimonials are available */}
@@ -28,10 +49,10 @@ export default function Recommendations() {
             </div>
             */}
 
-            <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
+            <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm mt-10">
               <div className="space-y-6">
                 <div className="border-l-4 border-blue-500 pl-6">
-                  <blockquote className="text-gray-700 italic">
+                  <blockquote className="text-gray-700 italic whitespace-pre-line">
                     "I've had the privilege of working directly under Jeff as my Senior Director DevOps, SRE, DevSecOps at SleepNumber Innovation Labs for nearly five years. During this time, Jeff has consistently demonstrated exceptional leadership, not only in driving our technical vision forward but also in fostering a supportive and high-performing team culture.
                     
                     Jeff is a people-first leader who genuinely cares about the growth and well-being of every team member. He is always approachable, generous with his knowledge, and proactive in providing mentorship and guidance. Thanks to Jeff's support, I've grown significantly both technically and professionally.
@@ -174,7 +195,7 @@ export default function Recommendations() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }
