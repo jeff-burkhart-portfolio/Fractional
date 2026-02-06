@@ -116,28 +116,35 @@ export default function Home() {
 
       <section className="py-10 bg-white">
         <Container>
-          <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between rounded-3xl border border-gray-200 bg-gray-50 p-6">
+          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between rounded-3xl border border-gray-200 bg-gray-50 p-6">
             <div>
               <div className="text-sm font-medium text-gray-900">Ready to talk?</div>
               <div className="mt-1 text-sm text-gray-600">Currently accepting new fractional or interim engagements.</div>
             </div>
-            {calendarUrl ? (
-              <a
-                href={calendarUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-              >
-                Talk through your situation (30-minute intro call)
-              </a>
-            ) : (
-              <Link
-                to="/#contact"
-                className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-              >
-                Talk through your situation (30-minute intro call)
-              </Link>
-            )}
+            <div className="w-full sm:w-auto">
+              {calendarUrl ? (
+                <>
+                  <a
+                    href={calendarUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex w-full justify-center rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 sm:w-auto"
+                  >
+                    Talk through your situation (30-minute intro call)
+                  </a>
+                  <p className="mt-2 text-sm text-gray-600">
+                    No sales pitch — just a conversation about what’s going on and whether I can help
+                  </p>
+                </>
+              ) : (
+                <Link
+                  to="/#contact"
+                  className="inline-flex w-full justify-center rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800 sm:w-auto"
+                >
+                  Talk through your situation (30-minute intro call)
+                </Link>
+              )}
+            </div>
           </div>
         </Container>
       </section>
@@ -299,6 +306,11 @@ export default function Home() {
               See if a fractional engagement makes sense
             </Link>
           </div>
+          {calendarUrl && (
+            <p className="mt-3 text-sm text-gray-600">
+              No sales pitch — just a conversation about what’s going on and whether I can help
+            </p>
+          )}
         </Container>
       </section>
 
@@ -413,6 +425,18 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-3 group-hover:text-gray-900">Engineering Philosophy</h3>
                 <p className="text-gray-700 mb-4">Explore my approach to engineering leadership, technical principles, and methodologies that drive successful team outcomes.</p>
                 <span className="text-blue-600 font-medium group-hover:text-blue-700">View Philosophy →</span>
+              </Link>
+            </div>
+            <div className="mt-8 max-w-4xl mx-auto">
+              <Link
+                to="/case-studies"
+                className="group block rounded-3xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-gray-900">Case Studies</h3>
+                <p className="text-gray-700 mb-4">
+                  Representative outcomes from reliability, cloud/platform, and engineering leadership engagements.
+                </p>
+                <span className="text-blue-600 font-medium group-hover:text-blue-700">View Case Studies →</span>
               </Link>
             </div>
           </div>

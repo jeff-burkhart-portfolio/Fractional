@@ -21,6 +21,9 @@ export default function Layout({ children }) {
     if (location.pathname === '/' && calendarUrl) {
       return { type: 'external', href: calendarUrl, label: 'Talk through your situation (30-minute intro call)' };
     }
+    if (location.pathname === '/case-studies') {
+      return { type: 'internal', to: describeLink, label: 'Describe your situation' };
+    }
     if (location.pathname === '/recommendations') {
       return { type: 'internal', to: describeLink, label: 'Describe your situation' };
     }
@@ -55,6 +58,14 @@ export default function Layout({ children }) {
                 }
               >
                 Recommendations
+              </NavLink>
+              <NavLink
+                to="/case-studies"
+                className={({ isActive: navActive }) =>
+                  `hover:text-gray-900 ${navActive ? 'text-gray-900 font-medium' : 'text-gray-600'}`
+                }
+              >
+                Case Studies
               </NavLink>
               <NavLink
                 to="/philosophy"
@@ -117,6 +128,14 @@ export default function Layout({ children }) {
                   }
                 >
                   Recommendations
+                </NavLink>
+                <NavLink
+                  to="/case-studies"
+                  className={({ isActive: navActive }) =>
+                    `rounded-xl px-3 py-2 text-sm ${navActive ? 'bg-gray-100 text-gray-900 font-medium' : 'text-gray-700 hover:bg-gray-50'}`
+                  }
+                >
+                  Case Studies
                 </NavLink>
                 <NavLink
                   to="/philosophy"

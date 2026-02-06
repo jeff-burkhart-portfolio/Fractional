@@ -25,6 +25,9 @@ export default function Footer() {
                 <Link className="hover:text-gray-900" to="/recommendations">Recommendations</Link>
               </li>
               <li>
+                <Link className="hover:text-gray-900" to="/case-studies">Case studies</Link>
+              </li>
+              <li>
                 <Link className="hover:text-gray-900" to="/philosophy">Engineering philosophy</Link>
               </li>
               <li>

@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Recommendations from './pages/Recommendations';
 import EngineeringPhilosophy from './pages/EngineeringPhilosophy';
+import CaseStudies from './pages/CaseStudies';
 import NotFound from './pages/NotFound';
 import ScrollToHash from './components/ScrollToHash';
 
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/philosophy" element={<EngineeringPhilosophy />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
