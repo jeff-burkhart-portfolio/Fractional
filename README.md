@@ -22,3 +22,6 @@ This site can show a **“Schedule a 30-minute intro call”** CTA that links to
 ```js
 calendarUrl: 'https://calendly.com/<your-handle>/<event-slug>',
 ```
+
+### Node version
+Deploy environments should use **Node 20 LTS** (see `.nvmrc` and `package.json` `engines`).
