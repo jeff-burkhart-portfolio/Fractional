@@ -56,9 +56,9 @@ export default function Layout({ children }) {
                   href={calendarUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-xl bg-gray-900 px-3 py-2 text-xs font-medium text-white hover:bg-gray-800"
+                  className="whitespace-nowrap rounded-xl bg-gray-900 px-3 py-2 text-[11px] font-medium leading-tight text-white hover:bg-gray-800 lg:text-xs"
                 >
-                  Book intro call
+                  Talk through your situation (30-minute intro call)
                 </a>
               ) : (
                 <Link
@@ -120,7 +120,7 @@ export default function Layout({ children }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Book intro call
+                    Talk through your situation (30-minute intro call)
                   </a>
                 ) : (
                   <Link className="rounded-xl bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-800" to="/#contact">

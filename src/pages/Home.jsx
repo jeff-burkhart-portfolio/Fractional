@@ -37,14 +37,14 @@ export default function Home() {
                     rel="noreferrer"
                     className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
                   >
-                    Schedule a 30-minute intro call
+                    Talk through your situation (30-minute intro call)
                   </a>
                 ) : (
                   <Link
                     to="/#contact"
                     className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
                   >
-                    Schedule a 30-minute intro call
+                    Talk through your situation (30-minute intro call)
                   </Link>
                 )}
                 <Link
@@ -154,14 +154,14 @@ export default function Home() {
                 rel="noreferrer"
                 className="inline-flex w-fit rounded-2xl border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50"
               >
-                Schedule an intro call
+                Talk through your situation (30-minute intro call)
               </a>
             ) : (
               <Link
                 to="/#contact"
                 className="inline-flex w-fit rounded-2xl border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50"
               >
-                Schedule an intro call
+                Talk through your situation (30-minute intro call)
               </Link>
             )}
           </div>
