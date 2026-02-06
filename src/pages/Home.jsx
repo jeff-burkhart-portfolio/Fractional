@@ -88,14 +88,14 @@ export default function Home() {
             <div>
               <h2 className="text-2xl font-semibold tracking-tight">When to call me</h2>
               <p className="mt-3 text-gray-700">
-                Reach out if any of these sound familiar — a fractional engagement can stabilize things quickly.
+                You’re a good fit for a fractional engagement if any of these sound familiar:
               </p>
             </div>
             <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
               <ul className="space-y-3 text-sm text-gray-700">
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 rounded-full bg-blue-500" />
-                  <span>Reliability incidents or on-call load are becoming leadership problems</span>
+                  <span>Reliability incidents or on-call load are becoming leadership-level problems</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 rounded-full bg-blue-500" />
@@ -103,13 +103,16 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 rounded-full bg-blue-500" />
-                  <span>Cloud costs, delivery speed, or operational risk are limiting growth</span>
+                  <span>Cloud costs, delivery speed, or operational risk are limiting growth or confidence</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 rounded-full bg-blue-500" />
                   <span>You need senior engineering leadership now, not after a 4-month search</span>
                 </li>
               </ul>
+              <p className="mt-4 text-sm text-gray-700">
+                A fractional engagement can stabilize the situation quickly and create space to make longer-term decisions.
+              </p>
             </div>
           </div>
         </Container>
