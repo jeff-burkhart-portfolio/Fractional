@@ -29,35 +29,6 @@ export default function Home() {
                 I help founders and CTOs stabilize cloud platforms, DevOps, and SRE teams during growth, incidents, or leadership transitions — without the overhead of a full-time executive.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-3">
-                {calendarUrl ? (
-                  <a
-                    href={calendarUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-                  >
-                    Talk through your situation (30-minute intro call)
-                  </a>
-                ) : (
-                  <Link
-                    to="/#contact"
-                    className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-                  >
-                    Talk through your situation (30-minute intro call)
-                  </Link>
-                )}
-                <Link
-                  to="/recommendations"
-                  className="rounded-2xl border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50"
-                >
-                  Read recommendations
-                </Link>
-              </div>
-              <p className="mt-3 text-sm text-gray-600">
-                Currently accepting new fractional or interim engagements.
-              </p>
-
               <div className="mt-10 grid grid-cols-2 gap-4 text-sm text-gray-700 sm:grid-cols-3">
                 <div className="rounded-2xl border border-gray-200 bg-white/70 p-4">
                   <div className="font-semibold text-gray-900">26+ years</div>
@@ -114,6 +85,34 @@ export default function Home() {
                 A fractional engagement can stabilize the situation quickly and create space to make longer-term decisions.
               </p>
             </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-10 bg-white">
+        <Container>
+          <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between rounded-3xl border border-gray-200 bg-gray-50 p-6">
+            <div>
+              <div className="text-sm font-medium text-gray-900">Ready to talk?</div>
+              <div className="mt-1 text-sm text-gray-600">Currently accepting new fractional or interim engagements.</div>
+            </div>
+            {calendarUrl ? (
+              <a
+                href={calendarUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+              >
+                Talk through your situation (30-minute intro call)
+              </a>
+            ) : (
+              <Link
+                to="/#contact"
+                className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+              >
+                Talk through your situation (30-minute intro call)
+              </Link>
+            )}
           </div>
         </Container>
       </section>
