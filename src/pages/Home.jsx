@@ -1,10 +1,35 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Container from '../components/Container';
 import Seo from '../components/Seo';
 import { siteConfig } from '../siteConfig';
 
 export default function Home() {
   const calendarUrl = siteConfig.calendarUrl;
+  const location = useLocation();
+  const intent = new URLSearchParams(location.search).get('intent') || '';
+
+  const intentConfig = {
+    describe: {
+      subject: 'Describe your situation',
+      prefill:
+        "Here’s my situation:\n\n- Company / stage:\n- Team size:\n- Current pain:\n- What 'better' looks like:\n\nAnything else I should know?",
+    },
+    question: {
+      subject: 'Ask a question',
+      prefill:
+        "My question:\n\nContext:\n\nWhat I’ve tried so far (optional):",
+    },
+    fit: {
+      subject: 'See if a fractional engagement makes sense',
+      prefill:
+        "Does a fractional engagement make sense for this situation?\n\n- Company / stage:\n- Team size:\n- Scope:\n- Timing:\n- Desired outcomes:",
+    },
+  };
+
+  const prefillMessage = intentConfig[intent]?.prefill || '';
+  const subject = intentConfig[intent]?.subject
+    ? `Fractional VP Engineering — ${intentConfig[intent].subject}`
+    : 'Fractional VP Engineering inquiry';
 
   return (
     <div className="bg-gray-50">
@@ -249,6 +274,31 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="mt-8 flex flex-wrap gap-3">
+            {calendarUrl ? (
+              <a
+                href={calendarUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+              >
+                Talk through your situation (30-minute intro call)
+              </a>
+            ) : (
+              <Link
+                to="/#contact"
+                className="rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+              >
+                Talk through your situation (30-minute intro call)
+              </Link>
+            )}
+            <Link
+              to="/?intent=fit#contact"
+              className="rounded-2xl border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50"
+            >
+              See if a fractional engagement makes sense
+            </Link>
+          </div>
         </Container>
       </section>
 
@@ -316,13 +366,26 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <form action="https://formspree.io/f/myznydyr" method="POST" className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+            <form
+              key={intent || 'default'}
+              action="https://formspree.io/f/myznydyr"
+              method="POST"
+              className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm"
+            >
+              <input type="hidden" name="intent" value={intent} />
+              <input type="hidden" name="_subject" value={subject} />
               <label className="block text-sm font-medium">Name</label>
               <input name="name" className="mt-1 w-full rounded-xl border px-3 py-2" placeholder="Your name" required />
               <label className="mt-4 block text-sm font-medium">Email</label>
               <input name="email" type="email" className="mt-1 w-full rounded-xl border px-3 py-2" placeholder="you@company.com" required />
               <label className="mt-4 block text-sm font-medium">Message</label>
-              <textarea name="message" className="mt-1 w-full rounded-xl border px-3 py-2 h-28" placeholder="How can I help?" required />
+              <textarea
+                name="message"
+                className="mt-1 w-full rounded-xl border px-3 py-2 h-36"
+                placeholder="How can I help?"
+                defaultValue={prefillMessage}
+                required
+              />
               <button type="submit" className="mt-6 w-full rounded-2xl bg-gray-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-gray-800">Send</button>
             </form>
           </div>

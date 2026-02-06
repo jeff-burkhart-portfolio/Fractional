@@ -35,7 +35,7 @@ export default function ScrollToHash() {
     };
 
     tryScroll();
-  }, [location.pathname, location.hash]);
+  }, [location.pathname, location.search, location.hash]);
 
   return null;
 }

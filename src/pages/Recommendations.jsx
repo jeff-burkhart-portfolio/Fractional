@@ -18,12 +18,20 @@ export default function Recommendations() {
                 A few notes from people I’ve worked with across engineering leadership, DevOps, SRE, and platform teams.
               </p>
             </div>
-            <Link
-              to="/#contact"
-              className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-            >
-              Talk about your team
-            </Link>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                to="/?intent=describe#contact"
+                className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+              >
+                Describe your situation
+              </Link>
+              <Link
+                to="/?intent=question#contact"
+                className="inline-flex w-fit rounded-2xl border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50"
+              >
+                Ask a question
+              </Link>
+            </div>
           </div>
           
           <div className="space-y-8">

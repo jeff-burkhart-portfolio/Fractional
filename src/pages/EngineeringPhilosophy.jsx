@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Container from '../components/Container';
 import Seo from '../components/Seo';
 
@@ -14,6 +15,20 @@ export default function EngineeringPhilosophy() {
           <p className="mt-3 text-gray-700">
             These are the principles I use to build durable systems and high-performing, healthy teams.
           </p>
+          <div className="mt-7 flex flex-wrap gap-3">
+            <Link
+              to="/?intent=fit#contact"
+              className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+            >
+              See if a fractional engagement makes sense
+            </Link>
+            <Link
+              to="/?intent=describe#contact"
+              className="inline-flex w-fit rounded-2xl border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50"
+            >
+              Describe your situation
+            </Link>
+          </div>
           
           <div className="space-y-8">
             {/* Core Philosophy */}
