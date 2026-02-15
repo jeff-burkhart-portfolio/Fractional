@@ -68,6 +68,9 @@ export default function Home() {
                   <div className="mt-1">Calm execution</div>
                 </div>
               </div>
+              <p className="mt-6 text-sm font-normal text-gray-500">
+                Available for fractional leadership and select full-time roles.
+              </p>
             </div>
             <div className="md:pl-8">
               <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm flex items-center justify-center">
