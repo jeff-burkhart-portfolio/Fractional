@@ -154,7 +154,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-12 items-start">
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-semibold tracking-tight">About Jeff</h2>
-              <p className="mt-4 text-gray-700 leading-relaxed">I'm a technology leader with 40+ years in tech and 26 years directing engineering teams across cloud, DevOps, and SRE. I've led at Informix, TiVo, Platinum Technology, Embarcadero Technology, Zymergen, and SleepNumber. I help early‑stage and growth companies build durable engineering organizations, ship safely, and scale efficiently.</p>
+              <p className="mt-4 text-gray-700 leading-relaxed">I'm a technology leader with more than 40 years in software and 26 years guiding engineering teams across cloud, DevOps, and SRE. My experience includes leadership roles at Informix, TiVo, Platinum Technology, Embarcadero Technology, Zymergen, and SleepNumber, where I've supported organizations in building reliable systems, improving delivery practices, and growing engineering teams in a sustainable way. I tend to focus on periods of transition — helping teams steady themselves while continuing to ship and evolve. Alongside my engineering work, I've maintained a long-standing personal practice in meditation, somatic awareness, and depth psychology. While my professional role remains grounded in engineering leadership, these perspectives shape how I think about resilience, decision-making, and supporting people through complex change.</p>
             </div>
             <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
               <h3 className="font-semibold">What you get</h3>
