@@ -34,8 +34,8 @@ export default function Home() {
   return (
     <div className="bg-gray-50">
       <Seo
-        title="Fractional VP Engineering"
-        description="Fractional VP Engineering for startups and scale-ups. Stabilize Cloud, DevOps & SRE teams during growth, incidents, or leadership transitions—without full-time overhead."
+        title="Fractional and Full-Time Engineering Leadership"
+        description="Fractional and full-time engineering leadership for startups and scale-ups. Stabilize Cloud, DevOps & SRE teams during growth, incidents, or leadership transitions."
       />
       <section id="home" className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-teal-50" />
