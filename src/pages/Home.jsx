@@ -48,7 +48,7 @@ export default function Home() {
                 <span>Cloud • DevOps • SRE</span>
               </div>
               <h1 className="mt-4 text-4xl sm:text-5xl font-semibold tracking-tight">
-                Fractional and Full time Engineering Leadership for teams under real scale pressure
+                Fractional and Full-Time Engineering Leadership for Teams Under Real Scale Pressure
               </h1>
               <p className="mt-4 text-lg text-gray-700">
                 I help founders and CTOs stabilize cloud platforms, DevOps, and SRE teams during growth, incidents, or leadership transitions — without the overhead of a full-time executive.
