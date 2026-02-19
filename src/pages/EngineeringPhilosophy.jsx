@@ -15,21 +15,6 @@ export default function EngineeringPhilosophy() {
           <p className="mt-3 text-gray-700">
             These are the principles I use to build durable systems and high-performing, healthy teams — and the thinking behind why they matter.
           </p>
-          <div className="mt-7 flex flex-wrap gap-3">
-            <Link
-              to="/?intent=fit#contact"
-              className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-            >
-              See if a fractional engagement makes sense
-            </Link>
-            <Link
-              to="/?intent=describe#contact"
-              className="inline-flex w-fit rounded-2xl border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50"
-            >
-              Describe your situation
-            </Link>
-          </div>
-          
           <div className="space-y-8">
             {/* Core Philosophy */}
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
@@ -192,6 +177,15 @@ export default function EngineeringPhilosophy() {
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <h2 className="text-2xl font-semibold mb-4">How I Think About Change</h2>
               <p className="text-gray-700">Most of my engagements happen at inflection points — a leadership gap, a reliability crisis, a platform that hasn't kept pace with growth. What I've learned is that the technical work is rarely the hardest part. The harder work is helping teams regain confidence, reestablish trust across functions, and find a sustainable pace after a period of strain. That's where experience with both systems and people matters most.</p>
+            </div>
+
+            <div className="flex justify-start">
+              <Link
+                to="/?intent=describe#contact"
+                className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+              >
+                Talk through your situation
+              </Link>
             </div>
 
           </div>
