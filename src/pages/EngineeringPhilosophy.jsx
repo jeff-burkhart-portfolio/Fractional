@@ -13,7 +13,7 @@ export default function EngineeringPhilosophy() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-semibold tracking-tight">Engineering Philosophy</h1>
           <p className="mt-3 text-gray-700">
-            These are the principles I use to build durable systems and high-performing, healthy teams.
+            These are the principles I use to build durable systems and high-performing, healthy teams — and the thinking behind why they matter.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
@@ -33,7 +33,8 @@ export default function EngineeringPhilosophy() {
           <div className="space-y-8">
             {/* Core Philosophy */}
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold mb-4">Core Engineering Principles</h2>
+              <h2 className="text-2xl font-semibold mb-4">How I Think About Systems</h2>
+              <p className="text-gray-700 mb-6">Reliable systems don't happen by accident — they're the result of deliberate decisions made early and maintained consistently. My technical approach is grounded in the belief that operational requirements deserve the same priority as functional ones. Most platform problems I've walked into weren't caused by bad engineers; they were caused by systems where reliability, security, and observability were treated as afterthoughts.</p>
               <div className="space-y-4">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-3">
@@ -103,7 +104,8 @@ export default function EngineeringPhilosophy() {
 
             {/* Leadership Approach */}
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold mb-4">Leadership Philosophy</h2>
+              <h2 className="text-2xl font-semibold mb-4">How I Think About Teams</h2>
+              <p className="text-gray-700 mb-6">The most important thing a leader can do is create the conditions for others to do their best work. That starts with emotional safety — people can't think clearly, take smart risks, or flag problems early when they don't feel safe. It also requires a leader who stays grounded under pressure. A non-anxious presence at the top of a team doesn't mean pretending problems don't exist — it means responding to them with clarity rather than urgency, and giving people the stability they need to solve hard things.</p>
               <div className="space-y-4">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-3">
@@ -185,6 +187,11 @@ export default function EngineeringPhilosophy() {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
+              <h2 className="text-2xl font-semibold mb-4">How I Think About Change</h2>
+              <p className="text-gray-700">Most of my engagements happen at inflection points — a leadership gap, a reliability crisis, a platform that hasn't kept pace with growth. What I've learned is that the technical work is rarely the hardest part. The harder work is helping teams regain confidence, reestablish trust across functions, and find a sustainable pace after a period of strain. That's where experience with both systems and people matters most.</p>
             </div>
 
           </div>
