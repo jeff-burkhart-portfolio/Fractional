@@ -106,7 +106,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 rounded-full bg-blue-500" />
-                  <span>You need senior engineering leadership now, not after a 4-month search</span>
+                  <span>You need someone who can be effective in week one, not month four</span>
                 </li>
               </ul>
               <p className="mt-4 text-sm text-gray-700">
