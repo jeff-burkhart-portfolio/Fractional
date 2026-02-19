@@ -35,6 +35,8 @@ export default function Recommendations() {
           </div>
           
           <div className="space-y-8">
+              <p className="text-gray-700">These recommendations span more than two decades of engineering leadership — from early-career managers I've mentored to CTOs and directors I've worked alongside. They reflect the kind of leader I try to be consistently, not just when it's easy.</p>
+
             {/* Client Testimonials - Commented out until testimonials are available */}
             {/* 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
@@ -195,12 +197,6 @@ export default function Recommendations() {
               </div>
             </div>
 
-            <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold mb-4">Professional References</h2>
-              <p className="text-gray-700 text-center">
-                References available upon request.
-              </p>
-            </div>
           </div>
         </div>
       </Container>
