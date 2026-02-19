@@ -272,10 +272,11 @@ export default function CaseStudies() {
                     'Complexity increased faster than leadership bandwidth',
                     'Reliability, delivery, or cost issues became executive concerns',
                     'Teams needed calm, experienced leadership to stabilize and reset',
-                    'Fractional engagement allows companies to address these challenges quickly, without committing to a full-time executive before the situation is clear.',
                   ]}
                 />
               </div>
+
+              <p className="mt-6 text-gray-700">Fractional engagement allows companies to address these challenges quickly, without committing to a full-time executive before the situation is clear.</p>
 
               <div className="mt-8">
                 {calendarUrl ? (
