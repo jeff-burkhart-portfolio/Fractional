@@ -15,28 +15,12 @@ export default function Recommendations() {
             <div>
               <h1 className="text-4xl font-semibold tracking-tight">Recommendations</h1>
               <p className="mt-3 text-gray-700">
-                A few notes from people I’ve worked with across engineering leadership, DevOps, SRE, and platform teams.
+                A few notes from people I’ve worked with across engineering leadership, DevOps, SRE, and platform teams — spanning more than two decades, from early-career managers I’ve mentored to CTOs and directors I’ve worked alongside. They reflect the kind of leader I try to be consistently, not just when it’s easy.
               </p>
-            </div>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                to="/?intent=describe#contact"
-                className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
-              >
-                Describe your situation
-              </Link>
-              <Link
-                to="/?intent=question#contact"
-                className="inline-flex w-fit rounded-2xl border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50"
-              >
-                Ask a question
-              </Link>
             </div>
           </div>
           
           <div className="space-y-8">
-              <p className="text-gray-700">These recommendations span more than two decades of engineering leadership — from early-career managers I've mentored to CTOs and directors I've worked alongside. They reflect the kind of leader I try to be consistently, not just when it's easy.</p>
-
             {/* Client Testimonials - Commented out until testimonials are available */}
             {/* 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
@@ -197,6 +181,14 @@ export default function Recommendations() {
               </div>
             </div>
 
+          </div>
+          <div className="flex justify-start mt-8">
+            <Link
+              to="/?intent=describe#contact"
+              className="inline-flex w-fit rounded-2xl bg-gray-900 px-5 py-3 text-sm font-medium text-white hover:bg-gray-800"
+            >
+              Talk through your situation
+            </Link>
           </div>
         </div>
       </Container>
