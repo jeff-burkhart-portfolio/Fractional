@@ -158,7 +158,7 @@ export default function Home() {
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-semibold tracking-tight">About Jeff</h2>
               <p className="mt-4 text-gray-700 leading-relaxed">I'm a technology leader with more than 40 years in software and 26 years guiding engineering teams across cloud, DevOps, and SRE. My experience includes leadership roles at Informix, TiVo, Platinum Technology, Embarcadero Technology, Zymergen, and Sleep Number. I tend to be brought in at inflection points — when reliability, delivery, or team health have become leadership-level problems — and I focus on helping organizations stabilize, reset, and build something more durable.</p>
-              <p className="mt-4 text-gray-700 leading-relaxed">I bring the same attention to the people side of engineering that I bring to the technical side. In my experience, holding the technical and the human in balance isn't a nice-to-have — it's what makes the difference. The two are inseparable.</p>
+              <p className="mt-4 text-gray-700 leading-relaxed">I bring the same attention to the people side of engineering that I bring to the technical side. In my experience, holding the technical and the human in balance isn't a nice-to-have — it's what makes the difference between good and great. And ultimately, the two are inseparable.</p>
             </div>
             <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
               <h3 className="font-semibold">What you get</h3>
