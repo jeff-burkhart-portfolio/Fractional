@@ -48,10 +48,10 @@ export default function Home() {
                 <span>Cloud • DevOps • SRE</span>
               </div>
               <h1 className="mt-4 text-4xl sm:text-5xl font-semibold tracking-tight">
-                Fractional and Full-Time Engineering Leadership for Teams Under Real Scale Pressure
+                26 Years Leading Engineering Teams. Now Available Fractionally.
               </h1>
               <p className="mt-4 text-lg text-gray-700">
-                I help founders and CTOs stabilize cloud platforms, DevOps, and SRE teams during growth, incidents, or leadership transitions — without the overhead of a full-time executive.
+                I help founders and CTOs navigate the moments that matter most — when reliability, delivery, or leadership gaps become executive problems. Senior leadership available now, without the 4-month search.
               </p>
 
               <div className="mt-10 grid grid-cols-2 gap-4 text-sm text-gray-700 sm:grid-cols-3">
@@ -60,12 +60,12 @@ export default function Home() {
                   <div className="mt-1">Leading engineering orgs</div>
                 </div>
                 <div className="rounded-2xl border border-gray-200 bg-white/70 p-4">
-                  <div className="font-semibold text-gray-900">Cloud-first</div>
-                  <div className="mt-1">Delivery + operations</div>
+                  <div className="font-semibold text-gray-900">Stabilize first</div>
+                  <div className="mt-1">Decide what's next</div>
                 </div>
                 <div className="rounded-2xl border border-gray-200 bg-white/70 p-4">
-                  <div className="font-semibold text-gray-900">People-first</div>
-                  <div className="mt-1">Calm execution</div>
+                  <div className="font-semibold text-gray-900">Available now</div>
+                  <div className="mt-1">No 4-month search</div>
                 </div>
               </div>
               <p className="mt-6 text-sm font-normal text-gray-500">
