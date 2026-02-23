@@ -134,7 +134,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
-                  <span>Identity, least privilege, and verification become agent guardrails.</span>
+                  <span>Identity, least privilege, and verification establish agent guardrails.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
@@ -148,7 +148,7 @@ export default function Home() {
             </div>
           </div>
           <p className="mt-6 text-sm text-gray-500">
-            AI Governance Series → Coming soon
+            AI Governance Series (in progress)
           </p>
         </Container>
       </section>
