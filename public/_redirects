@@ -1,6 +1,11 @@
 # Netlify redirects for React Router
+
+# Allow the resume PDF to be served as a static asset
+/Jeff_Burkhart_Resume.pdf  /Jeff_Burkhart_Resume.pdf  200
+
+# Catch-all SPA fallback
 /*    /index.html   200
 
-# Specific routes
+# Specific routes (kept for clarity; technically redundant with the catch-all)
 /recommendations    /index.html   200
 /philosophy        /index.html   200

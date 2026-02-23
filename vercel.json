@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/Jeff_Burkhart_Resume.pdf",
+      "destination": "/Jeff_Burkhart_Resume.pdf"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
