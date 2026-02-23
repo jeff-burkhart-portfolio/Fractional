@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="font-semibold tracking-tight">Jeff Burkhart Engineering</div>
             <p className="mt-2 text-sm text-gray-600">
-              Fractional engineering leadership for teams building cloud-first products.
+              Fractional engineering leadership for teams building cloud- and AI-first systems.
             </p>
           </div>
 

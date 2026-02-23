@@ -56,6 +56,9 @@ export default function Home() {
               <p className="mt-2 text-gray-600">
                 AI governance is an evolution of distributed systems governance—implemented through control planes, identity, and policy.
               </p>
+              <p className="mt-2 text-gray-600">
+                Increasingly, this includes helping organizations build governable AI infrastructure — where control planes, identity, and reliability define safe autonomy.
+              </p>
 
               <div className="mt-10 grid grid-cols-2 gap-4 text-sm text-gray-700 sm:grid-cols-3">
                 <div className="rounded-2xl border border-gray-200 bg-white/70 p-4">
@@ -205,7 +208,7 @@ export default function Home() {
                 <li className="flex gap-2"><span className="mt-1 h-2 w-2 rounded-full bg-blue-500" /><span>Clear priorities, roadmaps, and execution cadence</span></li>
                 <li className="flex gap-2"><span className="mt-1 h-2 w-2 rounded-full bg-blue-500" /><span>Stronger engineering management, hiring, and leveling</span></li>
                 <li className="flex gap-2"><span className="mt-1 h-2 w-2 rounded-full bg-blue-500" /><span>Operational maturity: incidents, on-call, observability</span></li>
-                <li className="flex gap-2"><span className="mt-1 h-2 w-2 rounded-full bg-blue-500" /><span>Pragmatic governance: security, risk, reliability</span></li>
+                <li className="flex gap-2"><span className="mt-1 h-2 w-2 rounded-full bg-blue-500" /><span>Pragmatic governance: security, risk, reliability, and governable AI systems</span></li>
               </ul>
             </div>
           </div>
@@ -254,6 +257,10 @@ export default function Home() {
               <h3 className="font-semibold">Cloud & DevOps Strategy</h3>
               <p className="mt-2 text-sm text-gray-700">Infrastructure roadmaps, SRE practices, cost optimization, and platform maturity.</p>
             </div>
+            <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+              <h3 className="font-semibold">AI Governance & Control Planes</h3>
+              <p className="mt-2 text-sm text-gray-700">Policy-driven infrastructure, identity boundaries, and reliability guardrails for agent-driven systems.</p>
+            </div>
           </div>
         </Container>
       </section>
@@ -286,7 +293,7 @@ export default function Home() {
                 <div className="text-xs font-medium text-gray-500">Week 4</div>
                 <div className="mt-1 font-semibold">Scale the system</div>
                 <p className="mt-2 text-sm text-gray-700">
-                  Hiring plan, role clarity, operating cadence, and a 90-day roadmap you can execute.
+                  Hiring plan, role clarity, operating cadence, and governance guardrails (identity, policy, reliability signals).
                 </p>
               </div>
             </div>
