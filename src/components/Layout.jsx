@@ -13,25 +13,8 @@ export default function Layout({ children }) {
     setMobileOpen(false);
   }, [location.pathname, location.search, location.hash]);
 
-  const contactLink = '/#contact';
-  const describeLink = '/?intent=describe#contact';
-  const fitLink = '/?intent=fit#contact';
-
-  const headerCta = (() => {
-    if (location.pathname === '/' && calendarUrl) {
-      return { type: 'external', href: calendarUrl, label: 'Talk through your situation (30-minute intro call)' };
-    }
-    if (location.pathname === '/case-studies') {
-      return { type: 'internal', to: describeLink, label: 'Describe your situation' };
-    }
-    if (location.pathname === '/recommendations') {
-      return { type: 'internal', to: describeLink, label: 'Describe your situation' };
-    }
-    if (location.pathname === '/philosophy') {
-      return { type: 'internal', to: fitLink, label: 'See if a fractional engagement makes sense' };
-    }
-    return { type: 'internal', to: contactLink, label: 'Contact' };
-  })();
+  const contactHref = calendarUrl || '/#contact';
+  const ctaLabel = 'Talk through your situation (30-minute intro call)';
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -79,21 +62,24 @@ export default function Layout({ children }) {
               <Link to="/#about" className="hover:text-gray-900 text-gray-600">About</Link>
               <Link to="/#services" className="hover:text-gray-900 text-gray-600">Services</Link>
               <Link to="/#pricing" className="hover:text-gray-900 text-gray-600">Pricing</Link>
-              {headerCta.type === 'external' ? (
+              <Link to="/#contact" className="hover:text-gray-900 text-gray-600">
+                Contact
+              </Link>
+              {calendarUrl ? (
                 <a
-                  href={headerCta.href}
+                  href={contactHref}
                   target="_blank"
                   rel="noreferrer"
                   className="whitespace-nowrap rounded-xl bg-gray-900 px-3 py-2 text-[11px] font-medium leading-tight text-white hover:bg-gray-800 lg:text-xs"
                 >
-                  {headerCta.label}
+                  {ctaLabel}
                 </a>
               ) : (
                 <Link
-                  to={headerCta.to}
+                  to={contactHref}
                   className="rounded-xl bg-gray-900 px-3 py-2 text-xs font-medium text-white hover:bg-gray-800"
                 >
-                  {headerCta.label}
+                  {ctaLabel}
                 </Link>
               )}
             </nav>
@@ -149,18 +135,21 @@ export default function Layout({ children }) {
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#about">About</Link>
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#services">Services</Link>
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#pricing">Pricing</Link>
-                {headerCta.type === 'external' ? (
+                <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#contact">
+                  Contact
+                </Link>
+                {calendarUrl ? (
                   <a
                     className="rounded-xl bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-800"
-                    href={headerCta.href}
+                    href={contactHref}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {headerCta.label}
+                    {ctaLabel}
                   </a>
                 ) : (
-                  <Link className="rounded-xl bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-800" to={headerCta.to}>
-                    {headerCta.label}
+                  <Link className="rounded-xl bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-800" to={contactHref}>
+                    {ctaLabel}
                   </Link>
                 )}
               </div>
