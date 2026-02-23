@@ -51,7 +51,7 @@ export default function Home() {
                 26 Years Leading Engineering Teams. Now Available Fractionally.
               </h1>
               <p className="mt-4 text-lg text-gray-700">
-                I help organizations build reliable, governable systems — including AI-era infrastructure — by treating governance, identity, and reliability as architecture.
+                I help organizations build reliable, governable systems — including AI-era infrastructure — by treating governance, identity, and reliability as architectural concerns.
               </p>
 
               <div className="mt-10 grid grid-cols-2 gap-4 text-sm text-gray-700 sm:grid-cols-3">
@@ -142,7 +142,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
-                  <span>Monitoring + automated escalation turns intent into enforceable policy.</span>
+                  <span>Monitoring and automated escalation make governance enforceable.</span>
                 </li>
               </ul>
             </div>
