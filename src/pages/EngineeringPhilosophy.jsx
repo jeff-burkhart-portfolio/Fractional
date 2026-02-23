@@ -87,6 +87,38 @@ export default function EngineeringPhilosophy() {
               </div>
             </div>
 
+            {/* AI Governance — bridge between Systems and Teams */}
+            <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
+              <h2 className="text-2xl font-semibold mb-4">How I Think About AI Governance</h2>
+              <p className="text-gray-700 mb-4">I don't think about governance as a compliance exercise — I think about it as architecture. It defines what systems are allowed to do, how actions are verified, and how risk surfaces early through observability and feedback loops.</p>
+              <p className="text-gray-700 mb-6">Too often, AI conversations start with models and capabilities. I've found governance concerns — control planes, identity boundaries, and operational guardrails — need to be designed on a peer basis with AI modeling so systems remain reliable, predictable, observable, and governable.</p>
+              <div className="space-y-4">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                      <p className="text-gray-700 font-medium">Control planes and policy engines define what agents can do.</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                      <p className="text-gray-700 font-medium">Identity, least privilege, and verification become agent guardrails.</p>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                      <p className="text-gray-700 font-medium">Reliability signals (SLOs/SLIs) become safety boundaries.</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                      <p className="text-gray-700 font-medium">Monitoring and automated escalation turn intent into enforceable policy.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="mt-6 text-gray-700">Ultimately, governance isn't just about systems — it's about creating enough clarity and safety that people can make good decisions inside complex environments.</p>
+            </div>
+
             {/* Leadership Approach */}
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <h2 className="text-2xl font-semibold mb-4">How I Think About Teams</h2>
