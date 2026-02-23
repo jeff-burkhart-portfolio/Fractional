@@ -50,11 +50,8 @@ export default function Home() {
               <h1 className="mt-4 text-4xl sm:text-5xl font-semibold tracking-tight">
                 26 Years Leading Engineering Teams. Now Available Fractionally.
               </h1>
-              <p className="mt-3 text-lg font-normal text-gray-600">
-                I build reliable, governable systems — including AI-era infrastructure — by treating governance, identity, and reliability as architectural concerns.
-              </p>
               <p className="mt-4 text-lg text-gray-700">
-                I help organizations stabilize reliability, scale platform engineering, and design governable infrastructure for AI-driven systems — where control planes, identity, and reliability define safe autonomy.
+                I help organizations build reliable, governable systems — including AI-era infrastructure — by treating governance, identity, and reliability as architecture.
               </p>
 
               <div className="mt-10 grid grid-cols-2 gap-4 text-sm text-gray-700 sm:grid-cols-3">
