@@ -59,7 +59,7 @@ export default function Layout({ children }) {
                 Philosophy
               </NavLink>
               <div className="h-5 w-px bg-gray-200" />
-              <Link to="/#about" className="hover:text-gray-900 text-gray-600">About</Link>
+              <Link to="/jeff" className="hover:text-gray-900 text-gray-600">About</Link>
               <Link to="/#services" className="hover:text-gray-900 text-gray-600">Services</Link>
               <Link to="/#pricing" className="hover:text-gray-900 text-gray-600">Pricing</Link>
               <Link to="/#contact" className="hover:text-gray-900 text-gray-600">
@@ -132,7 +132,7 @@ export default function Layout({ children }) {
                   Philosophy
                 </NavLink>
                 <div className="my-1 h-px bg-gray-200" />
-                <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#about">About</Link>
+                <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/jeff">About</Link>
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#services">Services</Link>
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#pricing">Pricing</Link>
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/#contact">
