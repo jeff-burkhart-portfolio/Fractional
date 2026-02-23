@@ -13,7 +13,7 @@ export default function EngineeringPhilosophy() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-semibold tracking-tight">Engineering & AI Governance Philosophy</h1>
           <p className="mt-3 text-gray-700">
-            These are the principles I use to build durable systems and high-performing, healthy teams — and the thinking behind why they matter.
+            These are the principles I use to build durable systems and governable AI-era infrastructure — and the thinking behind why they matter.
           </p>
           <div className="space-y-8">
             {/* Core Philosophy */}
@@ -64,7 +64,7 @@ export default function EngineeringPhilosophy() {
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
-                      <p className="text-gray-700 font-medium">Be smart in leveraging AI (see this page)</p>
+                      <p className="text-gray-700 font-medium">Apply AI deliberately — with governance designed alongside capability (see AI Governance below).</p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
@@ -111,7 +111,7 @@ export default function EngineeringPhilosophy() {
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
-                      <p className="text-gray-700 font-medium">Monitoring and automated escalation turn intent into enforceable policy.</p>
+                      <p className="text-gray-700 font-medium">Monitoring and automated escalation make governance operational, not aspirational.</p>
                     </div>
                   </div>
                 </div>
