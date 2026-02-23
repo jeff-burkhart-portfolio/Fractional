@@ -21,8 +21,26 @@ export default function Jeff() {
               Fractional Platform / SRE / Cloud Engineering Leadership
             </div>
             <p className="mt-3 text-gray-700">
-              I help teams stabilize reliability, scale platform engineering, and build secure infrastructure for AI-driven systems.
+              I help teams stabilize reliability, scale platform engineering, and build governable AI infrastructure.
             </p>
+
+            <div className="mt-6 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+              <div className="text-sm font-semibold text-gray-900">AI Governance & Distributed Systems</div>
+              <ul className="mt-2 space-y-1.5 text-sm text-gray-700">
+                <li className="flex gap-2">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
+                  <span>Control planes and policy engines define what agents can do.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
+                  <span>Identity, least privilege, and verification become agent guardrails.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
+                  <span>Reliability signals (SLOs/SLIs) become safety boundaries.</span>
+                </li>
+              </ul>
+            </div>
 
             <div className="mt-10 grid gap-10 md:grid-cols-2">
               <div>

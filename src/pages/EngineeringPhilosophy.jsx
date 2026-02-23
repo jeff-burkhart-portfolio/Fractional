@@ -6,12 +6,12 @@ export default function EngineeringPhilosophy() {
   return (
     <div className="bg-gray-50">
       <Seo
-        title="Engineering Philosophy"
-        description="Core engineering and leadership principles behind how Jeff Burkhart scales Cloud, DevOps, and SRE teams."
+        title="Engineering & AI Governance Philosophy"
+        description="Core engineering, AI governance, and leadership principles behind how Jeff Burkhart scales Cloud, DevOps, and SRE teams."
       />
       <Container className="py-20">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-semibold tracking-tight">Engineering Philosophy</h1>
+          <h1 className="text-4xl font-semibold tracking-tight">Engineering & AI Governance Philosophy</h1>
           <p className="mt-3 text-gray-700">
             These are the principles I use to build durable systems and high-performing, healthy teams — and the thinking behind why they matter.
           </p>

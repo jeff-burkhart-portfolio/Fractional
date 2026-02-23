@@ -56,7 +56,7 @@ export default function Layout({ children }) {
                   `hover:text-gray-900 ${navActive ? 'text-gray-900 font-medium' : 'text-gray-600'}`
                 }
               >
-                Philosophy
+                Engineering & AI Governance Philosophy
               </NavLink>
               <div className="h-5 w-px bg-gray-200" />
               <Link to="/jeff" className="hover:text-gray-900 text-gray-600">About</Link>
@@ -129,7 +129,7 @@ export default function Layout({ children }) {
                     `rounded-xl px-3 py-2 text-sm ${navActive ? 'bg-gray-100 text-gray-900 font-medium' : 'text-gray-700 hover:bg-gray-50'}`
                   }
                 >
-                  Philosophy
+                  Engineering & AI Governance Philosophy
                 </NavLink>
                 <div className="my-1 h-px bg-gray-200" />
                 <Link className="rounded-xl px-3 py-2 text-sm text-gray-700 hover:bg-gray-50" to="/jeff">About</Link>

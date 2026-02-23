@@ -28,7 +28,7 @@ export default function Footer() {
                 <Link className="hover:text-gray-900" to="/case-studies">Case studies</Link>
               </li>
               <li>
-                <Link className="hover:text-gray-900" to="/philosophy">Engineering philosophy</Link>
+                <Link className="hover:text-gray-900" to="/philosophy">Engineering & AI Governance philosophy</Link>
               </li>
               <li>
                 <Link className="hover:text-gray-900" to="/#contact">Contact</Link>

@@ -51,7 +51,10 @@ export default function Home() {
                 26 Years Leading Engineering Teams. Now Available Fractionally.
               </h1>
               <p className="mt-4 text-lg text-gray-700">
-                I help founders and CTOs navigate the moments that matter most — when reliability, delivery, or leadership gaps become executive problems. Senior leadership available now, without the 4-month search.
+                I help organizations stabilize reliability, scale platform engineering, and build governable infrastructure for AI-driven systems.
+              </p>
+              <p className="mt-2 text-gray-600">
+                AI governance is an evolution of distributed systems governance—implemented through control planes, identity, and policy.
               </p>
 
               <div className="mt-10 grid grid-cols-2 gap-4 text-sm text-gray-700 sm:grid-cols-3">
@@ -114,6 +117,42 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </Container>
+      </section>
+
+      <section id="ai-governance" className="py-16 bg-white">
+        <Container>
+          <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
+            <div>
+              <h2 className="text-2xl font-semibold tracking-tight">AI Governance & Distributed Systems</h2>
+              <p className="mt-3 text-gray-700">
+                AI governance is distributed systems governance with higher stakes—and it needs enforceable guardrails.
+              </p>
+            </div>
+            <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+              <ul className="space-y-3 text-sm text-gray-700">
+                <li className="flex gap-3">
+                  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
+                  <span>Control planes and policy engines define what agents can do.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
+                  <span>Identity, least privilege, and verification become agent guardrails.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
+                  <span>Reliability signals (SLOs/SLIs) become safety boundaries.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-blue-500" />
+                  <span>Monitoring + automated escalation turns intent into enforceable policy.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="mt-6 text-sm text-gray-500">
+            AI Governance Series → Coming soon
+          </p>
         </Container>
       </section>
 
@@ -426,8 +465,8 @@ export default function Home() {
                 to="/philosophy" 
                 className="group block rounded-3xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-md transition-shadow"
               >
-                <h3 className="text-xl font-semibold mb-3 group-hover:text-gray-900">Engineering Philosophy</h3>
-                <p className="text-gray-700 mb-4">Explore my approach to engineering leadership, technical principles, and methodologies that drive successful team outcomes.</p>
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-gray-900">Engineering & AI Governance Philosophy</h3>
+                <p className="text-gray-700 mb-4">Explore my approach to engineering leadership, AI governance, technical principles, and methodologies that drive successful team outcomes.</p>
                 <span className="text-blue-600 font-medium group-hover:text-blue-700">View Philosophy →</span>
               </Link>
             </div>
