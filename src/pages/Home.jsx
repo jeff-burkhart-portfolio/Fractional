@@ -51,7 +51,7 @@ export default function Home() {
                 26 Years Leading Engineering Teams. Now Available Fractionally.
               </h1>
               <p className="mt-4 text-lg text-gray-700">
-                I help organizations stabilize reliability, scale platform engineering, and build governable infrastructure for AI-driven systems.
+                I help organizations stabilize reliability, scale platform engineering, and build governable infrastructure for AI-driven systems. Increasingly, this work includes helping organizations build governable AI infrastructure — where control planes, identity, and reliability define safe autonomy.
               </p>
               <p className="mt-2 text-gray-600">
                 AI governance is an evolution of distributed systems governance—implemented through control planes, identity, and policy.
